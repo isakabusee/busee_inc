@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css"
+import Navbar from './components/Navbar'
 
 
 function App() {
   return (
     <div className="App">
-      
-      <h1>Busee Inc</h1>
+      <Navbar />
       <h2>This site is under contruction..</h2>
   
     </div>
