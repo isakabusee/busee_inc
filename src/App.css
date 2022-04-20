@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+/* Navigation Bar */
+
+.navbar-brand {
+  text-transform: uppercase;
+
+}
+
+nav a.nav-link {
+  font-weight: 31.25rem;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+/* Header */
+.header-wrapper {
+  position: relative;
+  /* background: url(background.jpg) no-repeat;
+  background-size: cover;
+  height: 60vh; */
+  width: auto;
+  background-color: #282c34;
+  min-height: 10.5rem;
+}
+
+/* SomeInfo */
+
+.someInfo-wrapper {
+  display: flex;
+  flex-direction: column;
+  /* width: 50.5rem; */
+  /* margin: 3.125rem;
+  align-items: center; */
+  /* padding: 50px 50px 50px; */
+ /* justify-content: center; */
+}
