@@ -76,3 +76,18 @@ nav ul li {
   /* padding: 50px 50px 50px; */
  /* justify-content: center; */
 }
+
+/* AboutUs */
+
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: .3rem;
+  border: 1px solid var(--primary-red);
+
+}
+
+.about-heading {
+  color: #61dafb;
+  text-transform: uppercase ;
+}
