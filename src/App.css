@@ -1,3 +1,11 @@
+:root {
+  --primary-sky-blue: #00FFFF ;
+  --primary-silver: rgb(192, 192, 192);
+  --primary-transparent-black: rgba(0,0,0,0.7);
+  --primary-black: #000000 ;
+  --primary-white: #FFFFFF ;
+}
+
 .App {
   text-align: center;
 }
@@ -39,8 +47,12 @@
 
 /* Navigation Bar */
 
+.title-name h2 {
+  color: var(--primary-white) ;
+}
 .navbar-brand {
   text-transform: uppercase;
+  color: white;
 
 }
 
@@ -83,11 +95,23 @@ nav ul li {
   width: 16rem;
   border-radius: 50%;
   padding: .3rem;
-  border: 1px solid var(--primary-red);
+  border: 2px solid var(--primary-black);
 
 }
 
 .about-heading {
   color: #61dafb;
   text-transform: uppercase ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.intro-message {
+  width: auto;
+  align-items: center;
+  margin: 10px 10px 10px 10px;
+}
+
+/* Some info */
+
