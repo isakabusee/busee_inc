@@ -38,7 +38,7 @@ const AboutUs = () => {
             <div className='col-lg-6 col-xm-12'>
                 <div className="photo-wrap">
                 <img className="profile-img" src={kaka5} alt="author.." />
-                <h2>Wein Nyassi</h2>
+                <h2>Wein Nyasi</h2>
                 <h6>Director, KukuPay</h6>
                 </div>
             </div>
