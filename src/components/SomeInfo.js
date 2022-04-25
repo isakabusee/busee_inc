@@ -7,13 +7,13 @@ const SomeInfo = () => {
         <h1>Introduction</h1>
         <p>
             Thank you for stopping by. We are here to provide you with the best service for your bussiness or personal needs. <br />
-            &nbsp; &nbsp; &nbsp; Moses and I will fill out the information that is sipposed to go here here.
-            Actually this is where  we will be talking more about us and what we do and blah blah blah but for now all this information is not here yet. <br />
-            I will work on this as soon as possible. 
-            This Message is for you Moses
-            Provide me with your picture and all the pictures of everyone you want to go on the company website so I can include them here
-            
+            With us the possibilities are endless and the sky is the limit. 
         </p>
+        <p>
+            We are a business found and rooted in seeking solutiions for day to day problems. Our drive is to make life possible for everyone both in personal and enterprise levels.
+            We win when you do.
+        </p>
+            
       </div>
     </div>
   )

@@ -5,7 +5,12 @@ import Kaka from '../images/kaka.png';
 import Dada from '../images/dada.png';
 import Kadadaa from '../images/Kadadaa.png';
 import Bwire from '../images/Bwire.png';
-import Moze1 from '../images/Moze1.png'
+import Moze1 from '../images/Moze1.png';
+import Bwire3 from  '../images/Bwire3.png';
+import Kadada3 from '../images/Kadada3.png';
+import Atu3 from '../images/Atu3.png';
+import kaka5 from '../images/kaka5.png'
+
 
 
 const AboutUs = () => {
@@ -22,9 +27,9 @@ const AboutUs = () => {
             </div>
             <div className='col-lg-6 col-xm-12'>
                 
-                <p>I am the chief Excecutive Officer of KukuPay. Some more information about you will go here. This is just some text as a placeholder. 
+                {/* <p>I am the chief Excecutive Officer of KukuPay. Some more information about you will go here. This is just some text as a placeholder. 
                     
-                </p>
+                </p> */}
             </div>
             
 
@@ -32,16 +37,16 @@ const AboutUs = () => {
         <div className='row py-5'>
             <div className='col-lg-6 col-xm-12'>
                 <div className="photo-wrap">
-                <img className="profile-img" src={Kaka} alt="author.." />
+                <img className="profile-img" src={kaka5} alt="author.." />
                 <h2>Wein Nyassi</h2>
                 <h6>Director, KukuPay</h6>
                 </div>
             </div>
             <div className='col-lg-6 col-xm-12'>
 
-                <p>
+                {/* <p>
                     I am the chief marketing officer of KukuPay. I'm a doer and make dreams come to reality. Some more content will come soon but now I will just put some text to fill up the space and blah blah  blah.
-                </p>
+                </p> */}
             </div>
             
 
@@ -55,9 +60,9 @@ const AboutUs = () => {
                 </div>
             </div>
             <div className='col-lg-6 col-xm-12'>
-                <p>
+                {/* <p>
                     I am Isaac Busee. I am the technical engineer of KukuPay. I think I saw a unicorn last night. Actually I think that onions are fruits. Why do you think they are round.
-                </p>
+                </p> */}
             </div>
             
 
@@ -65,15 +70,15 @@ const AboutUs = () => {
         <div className='row py-5'>
             <div className='col-lg-6 col-xm-12'>
                 <div className="photo-wrap">
-                <img className="profile-img" src={Dada} alt="author.." />
+                <img className="profile-img" src={Atu3} alt="author.." />
                 <h2>Atupakisye Biswalo</h2>
                 <h6>HR, KukuPay</h6>
                 </div>
             </div>
             <div className='col-lg-6 col-xm-12'>
-                <p>
+                {/* <p>
                     I am the chief marketing officer. I am always here to help and facilitate whatever the clients needs. Please do not hesitate to reach out to me. We are here to provide you with the best service. Our company is here to ensure that you erceive excellent service and quality.
-                </p>
+                </p> */}
             </div>
             
 
@@ -81,29 +86,29 @@ const AboutUs = () => {
         <div className='row py-5'>
             <div className='col-lg-6 col-xm-12'>
                 <div className="photo-wrap">
-                <img className="profile-img" src={Kadadaa} alt="author.." />
+                <img className="profile-img" src={Kadada3} alt="author.." />
                 <h2>Jesica Busee</h2>
                 <h6>HR, KukuPay</h6>
                 </div>
             </div>
             <div className='col-lg-6 col-xm-12'>
-                <p>
+                {/* <p>
                     I am the chief secretary of KukuPay. A dreamer and one so good at it. I'm here to ensure to help your business needs and make sure that we make the most for your business.
-                </p>
+                </p> */}
             </div>
         </div>
         <div className='row py-5'>
             <div className='col-lg-6 col-xm-12'>
                 <div className="photo-wrap">
-                <img className="profile-img" src={Bwire} alt="author.." />
+                <img className="profile-img" src={Bwire3} alt="author.." />
                 <h2>Bwire Busee</h2>
                 <h6>Chief Excutive Officer, KukuPay</h6>
                 </div>
             </div>
             <div className='col-lg-6 col-xm-12'>
-                <p>
+                {/* <p>
                     I am the technical cheif engineer. The voice of reason. Your business needs it? We got you!
-                </p>
+                </p> */}
             </div>
             
 
