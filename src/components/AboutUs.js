@@ -11,7 +11,7 @@ import Kadada3 from '../images/Kadada3.png';
 import Atu3 from '../images/Atu3.png';
 import kaka5 from '../images/kaka5.png';
 
-import Navbar from './Navbar';
+import Navbar1 from '../components/Navbar1';
 
 
 
@@ -19,7 +19,7 @@ const AboutUs = () => {
   return (
       <>
       <div>
-          <Navbar />
+          <Navbar1 />
       </div>
     <div className="container py-5">
         <h1 className='about-heading py-5'>About Us</h1>

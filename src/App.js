@@ -9,7 +9,8 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Home from './components/Home';
 import About from './Pages/About';
 import Info from './Pages/Info';
-import AboutUs from './components/AboutUs'
+import AboutUs from './components/AboutUs';
+
 
 
 

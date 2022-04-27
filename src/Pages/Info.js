@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import Navbar1 from '../components/Navbar1';
 
 const Info = () => {
   return (
       <>
       <div>
-    <Navbar />
+    <Navbar1 />
       </div>
     <div>This page will have some information about the business</div>
       </>
