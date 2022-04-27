@@ -9,12 +9,18 @@ import Moze1 from '../images/Moze1.png';
 import Bwire3 from  '../images/Bwire3.png';
 import Kadada3 from '../images/Kadada3.png';
 import Atu3 from '../images/Atu3.png';
-import kaka5 from '../images/kaka5.png'
+import kaka5 from '../images/kaka5.png';
+
+import Navbar from './Navbar';
 
 
 
 const AboutUs = () => {
   return (
+      <>
+      <div>
+          <Navbar />
+      </div>
     <div className="container py-5">
         <h1 className='about-heading py-5'>About Us</h1>
         <div className='row py-4'>
@@ -115,6 +121,7 @@ const AboutUs = () => {
         </div>
         
 </div>
+                </>
   )
 }
 
