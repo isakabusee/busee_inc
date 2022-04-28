@@ -4,7 +4,7 @@ const SomeInfo = () => {
   return (
     <div className='someInfo-wrapper py-5'>
       <div className="intro-message">
-        <h1>Introduction</h1>
+
         <p>
             Thank you for stopping by. We are here to provide you with the best service for your bussiness or personal needs. <br />
             With us the possibilities are endless and the sky is the limit. 

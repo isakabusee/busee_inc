@@ -196,18 +196,19 @@ nav ul li {
 /*** MEDIA ***/
 
 /*** Navbar1 ***/
-.main{
 
-  flex-direction: column;
-}
 body{
   font-family: montserrat;
 }
 
 nav {
-  background: var(--primary-black) ;
+
   height: 80px;
   width: 100%;
+}
+label.logo h1{
+  color: #000000;
+  padding: 15px;
 }
 
 label.logo{
@@ -291,4 +292,15 @@ a.active, a:hover{
     left: 0;
   }
  
+}
+
+/**** HOME ****/
+.main{
+
+  flex-direction: column;
+  background-color: red;
+  background: url(./images/background.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
