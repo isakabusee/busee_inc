@@ -8,7 +8,7 @@ const Navbar1 = () => {
         <nav>
             <input type="checkbox" id="check" />
             <label htmlFor="check" className="checkbtn">
-                <i className='fas far-bars'><FontAwesomeIcon icon={faBars} /></i>
+                <i className='far-bars'><FontAwesomeIcon icon={faBars} /></i>
             </label>
             <label className="logo"><h1>KukuPay</h1></label>
             <ul>

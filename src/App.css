@@ -197,6 +197,7 @@ nav ul li {
 
 /*** Navbar1 ***/
 
+
 body{
   font-family: montserrat;
 }
@@ -290,6 +291,9 @@ a.active, a:hover{
   }
   #check:checked ~ul{
     left: 0;
+  }
+  .far-bars{
+    color: #000000;
   }
  
 }
