@@ -2,8 +2,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-        <h2>This will be the footer of the page</h2>
+    <div className="bottom">
+<a href="#">Contuct us</a>
+<a href="#">Career</a>
+<a href="#">Products</a>
     </div>
   )
 }

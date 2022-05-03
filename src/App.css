@@ -206,9 +206,10 @@ nav {
 
   height: 80px;
   width: 100%;
+  background-color: var(--primary-black);
 }
 label.logo h1{
-  color: #000000;
+  color: var(--primary-white);
   padding: 15px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -247,11 +248,12 @@ a.active, a:hover{
 .checkbtn {
  font-size: 30px;
  color: white;
- float: right;
+ float: left;
  line-height: 80px;
  margin-right: 40px;
  cursor: pointer;
  display: none;
+ padding: 0 0 0 25px;
 }
 #check{
   display: none;
@@ -295,7 +297,7 @@ a.active, a:hover{
     left: 0;
   }
   .far-bars{
-    color: #000000;
+    color: var(--primary-white);
   }
  
 }
@@ -308,4 +310,20 @@ a.active, a:hover{
   background-size: cover;
   background-position: center;
   height: 100vh;
+}
+.main2{
+  flex-direction: column;
+  background-color: var(--primary-silver);
+
+}
+
+/*** Footer ***/
+.bottom{
+  background-color: var(--primary-transparent-black);
+  height: 100px;
+}
+.bottom a{
+  padding: 5px;
+  margin: 10px 10px;
+  text-decoration: none;
 }
