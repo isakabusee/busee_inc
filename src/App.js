@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 // import AboutUs from './components/AboutUs';
 // import Footer from './components/Footer';
 import Home from './components/Home';
-import About from './Pages/About';
+// import About from './Pages/About';
 import Info from './Pages/Info';
 import AboutUs from './components/AboutUs';
 
@@ -25,7 +25,7 @@ function App() {
           <Route path="/info" element={<Info/>}/>
         </Routes>
       </Router>
-  <h3>Stay tuned for more changes and updates...</h3>
+  <h3>Bwire wants to understand....</h3>
     </div>
 
 
