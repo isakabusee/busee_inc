@@ -13,7 +13,7 @@ const Navbar1 = () => {
             <label className="logo"><h1>KukuPay</h1></label>
             <ul>
                 <li><a className="active" href="/">Home</a></li>
-                <li><a className="active" href="/about">About</a></li>
+                <li><a className="active" href="/about">About Us</a></li>
                 <li><a className="active" href="/info">Services</a></li>
             </ul>
         </nav>

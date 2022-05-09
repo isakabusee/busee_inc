@@ -1,15 +1,14 @@
 import React from 'react'
 import author from '../images/IMG_8569.png';
-import Moze from '../images/Moses.png';
-import Kaka from '../images/kaka.png';
-import Dada from '../images/dada.png';
-import Kadadaa from '../images/Kadadaa.png';
-import Bwire from '../images/Bwire.png';
+
 import Moze1 from '../images/Moze1.png';
 import Bwire3 from  '../images/Bwire3.png';
 import Kadada3 from '../images/Kadada3.png';
 import Atu3 from '../images/Atu3.png';
-import kaka5 from '../images/kaka5.png';
+import KakaMkubwa from '../images/kakaMkubwa.png';
+
+import Jessica from '../images/Jessica.png';
+import Joshua from '../images/Joshua.png';
 
 import Navbar1 from '../components/Navbar1';
 
@@ -23,7 +22,8 @@ const AboutUs = () => {
       </div>
     <div className="container py-5">
         <h1 className='about-heading py-5'>About Us</h1>
-        <div className='row py-4'>
+        <div className="picWrapper1">
+        <div className='row py-5'>
             <div className='col-lg-6 col-xm-12'>
                 <div className="photo-wrap">
                 <img className="profile-img" src={Moze1} alt="author.." />
@@ -37,13 +37,13 @@ const AboutUs = () => {
                     
                 </p> */}
             </div>
-            
-
         </div>
+                </div>
+                <div className="picWrapper2">
         <div className='row py-5'>
             <div className='col-lg-6 col-xm-12'>
                 <div className="photo-wrap">
-                <img className="profile-img" src={kaka5} alt="author.." />
+                <img className="profile-img" src={KakaMkubwa} alt="author.." />
                 <h2>Wein Nyasi</h2>
                 <h6>Director, KukuPay</h6>
                 </div>
@@ -57,6 +57,8 @@ const AboutUs = () => {
             
 
         </div>
+        </div>
+        <div className="picWrapper3">
         <div className='row'>
             <div className='col-lg-6 col-xm-12'>
                 <div className="photo-wrap">
@@ -73,6 +75,8 @@ const AboutUs = () => {
             
 
         </div>
+        </div>
+        <div className="picWrapper4">
         <div className='row py-5'>
             <div className='col-lg-6 col-xm-12'>
                 <div className="photo-wrap">
@@ -89,11 +93,13 @@ const AboutUs = () => {
             
 
         </div>
+        </div>
+        <div className="picWrapper5">
         <div className='row py-5'>
             <div className='col-lg-6 col-xm-12'>
                 <div className="photo-wrap">
-                <img className="profile-img" src={Kadada3} alt="author.." />
-                <h2>Jesica Busee</h2>
+                <img className="profile-img" src={Jessica} alt="author.." />
+                <h2>Jessica Busee</h2>
                 <h6>HR, KukuPay</h6>
                 </div>
             </div>
@@ -103,6 +109,8 @@ const AboutUs = () => {
                 </p> */}
             </div>
         </div>
+        </div>
+        <div className="picWrapper6">
         <div className='row py-5'>
             <div className='col-lg-6 col-xm-12'>
                 <div className="photo-wrap">
@@ -119,7 +127,26 @@ const AboutUs = () => {
             
 
         </div>
+        </div>
         
+        <div className="picWrapper7">
+        <div className='row py-5'>
+            <div className='col-lg-6 col-xm-12'>
+                <div className="photo-wrap">
+                <img className="profile-img" src={Joshua} alt="author.." />
+                <h2>Joshua Busee</h2>
+                <h6>Coordination Officer, KukuPay</h6>
+                </div>
+            </div>
+            <div className='col-lg-6 col-xm-12'>
+                {/* <p>
+                    I am the technical cheif engineer. The voice of reason. Your business needs it? We got you!
+                </p> */}
+            </div>
+            
+
+        </div>
+        </div>
 </div>
                 </>
   )

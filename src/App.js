@@ -25,7 +25,7 @@ function App() {
           <Route path="/info" element={<Info/>}/>
         </Routes>
       </Router>
-  <h3>Bwire wants to understand....</h3>
+  {/* <h4>This site is under construction....</h4> */}
     </div>
 
 
