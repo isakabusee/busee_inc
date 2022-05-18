@@ -8,9 +8,15 @@ const Info = () => {
     <Navbar1 />
       </div>
     <div>
-      <h1>We are changing the world</h1>
-      <h3>We are here to turn your wildest dreams into reality</h3>
-      <h5>Contact us</h5>
+      <div className="idea1">
+      <h3>Bridging Gaps</h3>
+      <p>We connect businesses to their customers. Our model tneregetbdbsvxfbfgn zdgvadbdgn for now there will be this text. I will of course write something clever here to showcase how we solve business ideas and connect people together.</p>
+      </div>
+      <div className="idea2">
+        <p>We innovate and find ways to solve local solutions. Bring customer to the products is one of our main objective.</p>
+        <p>Ensuring that products changes hands fast and cheaply. Easing supply of produce and products for both suppliers and consumers.</p>
+      </div>
+
     </div>
       </>
   )

@@ -178,7 +178,11 @@ nav ul li {
 .intro-message {
   width: auto;
   align-items: center;
-  margin: 10px 10px 10px 10px;
+  margin: 1% 30% 1% 30%;
+  display: flex;
+  padding: 50px 50px 50px 50px;
+  flex-direction: column;
+  background: #FFFFFF;
   
 }
 .intro-message h1 {
@@ -186,34 +190,10 @@ nav ul li {
   color: #61dafb;
 
 }
-/* .picWrapper1 {
-  float: left;
-  padding: 5px;
+.area2{
+  width: auto;
+  margin: 5% 5%;
 }
-.picWrapper2 {
-  float: right;
-  padding: 5px;
-}
-.picWrapper3 {
-  float: left;
-  padding: 5px;
-}
-.picWrapper4 {
-  float: right;
-  padding: 5px;
-}
-.picWrapper5 {
-  float: left;
-  padding: 5px;
-}
-.picWrapper6 {
-  float: right;
-  padding: 5px;
-}
-.picWrapper7 {
-  float: right;
-  padding: 5px;
-} */
 
 
 
@@ -284,7 +264,7 @@ a.active, a:hover{
 @media (max-width: 952px){
   label.logo{
     font-size: 30px;
-    padding-left: 50px;
+    padding-left: 30px;
   }
   nav ul li a{
     font-size: 16px;
@@ -296,9 +276,9 @@ a.active, a:hover{
   }
   ul{
     position: fixed;
-    width: 20%;
+    width: 45%;
     height: 300vh;
-    background: #2c3e50;
+    background: var(--primary-silver);
     top: 80px;
     left: -100%;
     text-align: center;
@@ -314,7 +294,7 @@ a.active, a:hover{
   }
   a:hover,a.active{
     background: none;
-    color: white;
+    color: black;
   }
   #check:checked ~ul{
     left: 0;
@@ -332,21 +312,41 @@ a.active, a:hover{
   background: url(./images/background.png) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 50vh;
 }
 .main2{
   flex-direction: column;
-  background-color: var(--primary-silver);
+  /* background-color: var(--primary-silver); */
+  width: auto;
 
 }
 
 /*** Footer ***/
 .bottom{
   background-color: var(--primary-transparent-black);
-  height: 100px;
+  min-height: 10%;
 }
 .bottom a{
-  padding: 5px;
+  /* padding: 5px; */
   margin: 10px 10px;
   text-decoration: none;
+}
+
+/** Servces **/
+
+.idea1{
+  width: 30%;
+  border-radius: 50%;
+  display: block;
+  align-items: center;
+  padding: 5%;
+}
+.idea2{
+  border-radius: 50%;
+  display: flex;
+  align-self: flex-end;
+  float:right;
+  width: 30%;
+  padding: 0 5%;
+  flex-direction: column;
 }
