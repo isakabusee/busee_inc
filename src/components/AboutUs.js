@@ -65,7 +65,7 @@ const AboutUs = () => {
                 <div className="pic-box">
 
         <div className="picWrapper3">
-        <div className='row'>
+        <div className='row py-5'>
                 <div className="photo-wrap">
                 <img className="profile-img" src={author} alt="author.." />
                 <h2>Isaac Busee</h2>

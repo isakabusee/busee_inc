@@ -410,7 +410,9 @@ a.active, a:hover{
 }
 .profile-img {
   border-radius: 50%;
-  width: 30%;
+  width: 16rem;
+  padding: .5rem;
+  border: 1px solid var(--primary-black);
 }
 
 .pic-box {
@@ -445,10 +447,11 @@ a.active, a:hover{
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .box-wrapper .box{
-  width: 80%;
+  width: 50%;
   background-color: rgb(158, 149, 149);
   margin: 20px;
   min-height: 5rem;
